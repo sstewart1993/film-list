@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     event.preventDefault()
 
     const newListItem = document.createElement('li');
-    newListItem.textContent = `Title: ${event.target.title.value} Author: ${event.target.time.value} Category:${event.target.genre.value}`
+    newListItem.textContent = `Title: ${event.target.title.value} Time: ${event.target.time.value} Genre:${event.target.genre.value}`
     newListItem.classList.add('black', 'bold');
 
     const list = document.querySelector('ul');
