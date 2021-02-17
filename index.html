@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Reading List App</title>
+    <title>Films To Watch</title>
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
   </head>
   <body>
@@ -14,7 +14,7 @@
         </div>
 
         <div class="form-item">
-          <label for="author" class="primary">Author</label>
+          <label for="director" class="primary">Director</label>
           <input type="text" id="author" required/>
         </div>
 
@@ -22,16 +22,18 @@
           <label for="category" class="primary">Category</label>
           <select id="category">
             <option value="" disabled selected></option>
-            <option value="Book">Book</option>
-            <option value="Article">Article</option>
-            <option value="Blog Post">Blog Post</option>
+            <option value="Action">Action</option>
+            <option value="Horror">Horror</option>
+            <option value="Comedy">Comedy</option>
+            <option value="Fantasy">Fantasy</option>
+            <option value="Sci-Fy">Sci-Fy</option>
           </select>
         </div>
       </div>
       <input type="submit" value="save"/>
     </form>
 
-    <h1>Reading List</h1>
-    <ul id="reading-list"></ul>
+    <h1>Film List</h1>
+    <ul id="film-list"></ul>
   </body>
 </html>
